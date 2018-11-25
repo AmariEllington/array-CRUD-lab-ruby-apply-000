@@ -9,9 +9,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  add_element_to_end_of_array.push ("rat" "rabbit")
-  add_element_to_end_of_array[4] = "rat"
-
+create_an_array.push("rat")
+prints create_an_array
 
 end
 
