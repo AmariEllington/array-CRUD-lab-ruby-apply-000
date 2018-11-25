@@ -8,7 +8,7 @@ def create_an_array
 
 end
 
-def add_element_to_end_of_array(array, element)
+def add_element_to_end_of_array(array, element).last .to
 create_an_array.push("rat")
 print create_an_array
 
