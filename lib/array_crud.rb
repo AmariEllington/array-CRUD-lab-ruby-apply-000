@@ -10,8 +10,8 @@ end
 
 def add_element_to_end_of_array(array, element)
   add_element_to_end_of_array  ["dog","cat","snake","eagle"]
-  add_element_to_end_of_array << "rat"
-  add_element_to_end_of_array << "rabbit"
+  add_element_to_end_of_array.push ("bird", "rat")
+  
 end
 
 def add_element_to_start_of_array(array, element)
